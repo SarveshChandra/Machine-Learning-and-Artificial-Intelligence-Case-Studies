@@ -4,7 +4,7 @@ Covered fundamental case studies from Statistical analysis, EDA, feature enginee
 ## 01. Applied Statistics
     Statistical analysis using graphs and distributions
     
-    Dataset: Insurance
+    Dataset: Insurance (1000 x 7)
 
     Data preprocessing
         missing value handling
@@ -19,7 +19,7 @@ Covered fundamental case studies from Statistical analysis, EDA, feature enginee
 ## 02. Supervised Learning
     Classify using supervised learning models on training dataset and evaluate performances on test dataset
 
-    Dataset: users
+    Dataset: users (48k x 15)
     
     Data preprocessing
         concatenate 2 datasets
@@ -47,6 +47,7 @@ Covered fundamental case studies from Statistical analysis, EDA, feature enginee
         Model score
         confusion matrix
         Accuracy
+            76% (Naive Bayes) to 83% (SVC)
         Precision
             class 0
             class 1
@@ -57,7 +58,7 @@ Covered fundamental case studies from Statistical analysis, EDA, feature enginee
 ## 03. Ensemble Techniques
     Apply ensemble methods on classification models and evaluate performances
 
-    Dataset: bank users
+    Dataset: bank users (45k x 17)
 
     EDA
         5-point summary of numerical attributes
@@ -82,6 +83,7 @@ Covered fundamental case studies from Statistical analysis, EDA, feature enginee
     Performance evaluation on test data
         Confusion matrix
         Accuracy score
+            62% to 87%
         Precision
             class 0
             class 1
@@ -93,7 +95,7 @@ Covered fundamental case studies from Statistical analysis, EDA, feature enginee
 ## 04. Unsupervised Learning
     Perform classification on an unsupervised dataset and evaluate performance
 
-    Dataset: vehicles
+    Dataset: vehicles (~1000 x 19)
 
     Data preprocessing
         missing value handling
@@ -107,6 +109,7 @@ Covered fundamental case studies from Statistical analysis, EDA, feature enginee
     
     Feature engineering
         PCA
+            features reduced to 6
     
     Model Training
         SVC model without PCA
@@ -114,6 +117,8 @@ Covered fundamental case studies from Statistical analysis, EDA, feature enginee
     
     Performance evaluation
         Accuracy score
+            92% without PCA
+            78% with PCA
 
 
 ## 5. Featurization, Model selection and Tuning
